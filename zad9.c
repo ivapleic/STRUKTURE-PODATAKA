@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#define space 5
 
 struct _cvor;
 typedef struct _cvor* Position;
@@ -17,7 +16,6 @@ int Zamijeni(Position root);
 
 int main(){
     Position root = NULL;
-    //TreeNodePtr temp = NULL;
     int A[10] = {2,5,7,8,11,1,4,2,3,7};
     int n=10;
     int i=0;
@@ -50,7 +48,6 @@ int main(){
                 }  
                 printf("Ispis\n");
                 Zamijeni(root);
-               // root = Insert(root, root->data);
                 Inorder(root);
                 break;
 
