@@ -14,8 +14,6 @@ Position StvoriCvor(int Broj);
 Position Unesi(Position root,int Broj);
 int Inorder(Position root);
 int Zamijeni(Position root);
-//void draw_tree_hor2(TreeNodePtr root, int distance);
-//void draw_tree_hor(TreeNodePtr root);
 
 int main(){
     Position root = NULL;
